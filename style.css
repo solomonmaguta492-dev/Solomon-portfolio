@@ -1,0 +1,64 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*BASE*/
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
+    background: #F8F7F4;
+    color: #1A1A18;
+    line-height: 1.65;
+
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    color: #104ed6;
+    text-decoration: none;
+}
+
+/* TYPOGRAPHY*/
+h1, h2 {
+    line-height: 1.15;
+    color: #201178;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    max-width: 65ch;
+    color: #122927;
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
+
+/*LAYOUT HELPERS*/
+.section {
+    padding: 80px 1.5rem;
+}
+
+.section--tinted {
+    background: #eac480;
+    
+}
+
+.section-inner {
+    max-width: 780px;
+    margin: 0 auto;
+}
