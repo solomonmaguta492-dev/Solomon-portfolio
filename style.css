@@ -54,7 +54,7 @@ p:last-child {
 }
 
 .section--tinted {
-    background: #eac480;
+    background: #827f79;
     
 }
 
@@ -156,3 +156,22 @@ nav a {
     background: #1d4ed8;
     transform: translateY(-1px);
  }
+
+ /*ABOUT*/
+
+ .about-grid {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: 3rem;
+    align-items: start;
+ }
+
+ .about-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #eeeae3;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
+ }
+ 
