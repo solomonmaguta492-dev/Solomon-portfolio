@@ -108,3 +108,51 @@ nav a {
  nav a:hover {
     color: #104ed6;
  }
+
+ /*HERO*/
+ .hero {
+    padding: 120px 1.5rem 100px;
+    background: #F8F7F4;
+ }
+
+ .hero-inner {
+    max-width: 780px;
+    margin: 0 auto;
+ }
+
+ .hero-eyebrow {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #2563eb;
+    letter-spacing: 0.04em;
+    margin-bottom: 1rem;
+ }
+
+ .hero-headline {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+    line-height: 1.15;
+ }
+
+ .hero-headline em {
+    font-style: italic;
+    color: #2563eb;
+ }
+
+ .btn-primary {
+    display: inline-block;
+    padding: 0.75rem 1.75rem;
+    background: #2563eb;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: background 0.15s, transform 0.1s;
+ }
+
+ .btn-primary:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+ }
