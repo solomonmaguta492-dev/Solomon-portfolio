@@ -174,4 +174,39 @@ nav a {
     border: 3px solid #eeeae3;
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.08);
  }
- 
+
+ /*SKILLS*/
+
+ .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    list-style: none;
+ }
+
+ .skills-tag {
+    padding: 0.4em 1rem;
+    background: #6a7687;
+    color: #1e40af;
+    border-radius: 100px;
+    font-size: 0.875rem;
+    font-weight: 500;
+ }
+
+ /*PROJECTS*/
+
+ .project-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    padding: 1.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.65rem;
+    transition: box-shadowing 0.15s, transform 0.15s;
+ }
+
+ .project-card:hover {
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+    transform: translateY(-2px);
+ }
