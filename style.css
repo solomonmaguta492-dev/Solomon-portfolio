@@ -205,7 +205,7 @@ nav a {
     display: flex;
     flex-direction: column;
     gap: 0.65rem;
-    transition: box-shadowing 0.15s, transform 0.15s;
+    transition: box-shadow 0.15s, transform 0.15s;
  }
 
  .project-card:hover {
@@ -232,7 +232,7 @@ nav a {
  }
 
  .tech-badge {
-    padding: 0.25em 0,7rem;
+    padding: 0.25em 0.7rem;
     background: #eeeae3;
     color: #5a5a56;
     border-radius: 100px;
