@@ -239,3 +239,35 @@ nav a {
     font-size: 0.78rem;
     font-weight: 500;
  }
+
+ /*CONTACT*/
+
+ .contact-inner {
+    max-width: 540px;
+ }
+
+ .contact-me {
+   margin-bottom: 2rem;
+ }
+
+ .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+ }
+
+ .contact-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.65rem;
+    color: var(--ink);
+    font-weight: 500;
+    font-size: 0.95rem;
+    transition: color 0.15s;
+
+ }
+
+ .contact-links i {
+    font-size: 1.1rem;
+    color: var(--accent);
+ }
