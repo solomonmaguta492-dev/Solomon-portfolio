@@ -53,7 +53,7 @@ projects.forEach((project) => {               //loop opens here
       style="margin-top: 0.75rem; align-self: flex-start; font-size: 0.82rem; padding: 0.5rem 1.1rem;"
     >View Project</a>
   `;
-
+// append the card to the projects grid container
   projectsGrid.appendChild(card);             //append is inside the loop
 
 });                                           //loop closes here
