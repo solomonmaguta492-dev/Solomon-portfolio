@@ -11,7 +11,7 @@ skills.forEach((skill) => {
   skillsList.appendChild(li);              // then append
 });
 
-
+// PROJECTS SECTION
 
 const projects = [
   {
