@@ -29,7 +29,7 @@ const projects = [
     link: "https://solomonmaguta492-dev.github.io/Akan-Name-Generator/",
   },
 ];
-
+//create a reference to the projects grid container
 const projectsGrid = document.getElementById("projects-grid");
 
 projects.forEach((project) => {               //loop opens here
