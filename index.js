@@ -40,7 +40,7 @@ projects.forEach((project) => {               //loop opens here
 // create a new div element for each project card
   const card = document.createElement("div"); //card is inside the loop
   card.classList.add("project-card");
-
+// set the inner HTML of the card with project details
   card.innerHTML = `
     <h3>${project.title}</h3>
     <p>${project.description}</p>
