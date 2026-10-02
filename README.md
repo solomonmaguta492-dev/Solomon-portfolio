@@ -5,7 +5,7 @@ A personal portfolio website built with HTML, CSS, and JavaScript to showcase my
 
 ## Live Demo
 
-[View the portfolio](https://<your-github-username>.github.io/Solomon-portfolio/)
+[View the portfolio](https://solomonmaguta492-dev.github.io/Solomon-portfolio/)
 
 ## Features
 
