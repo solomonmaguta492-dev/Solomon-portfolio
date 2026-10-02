@@ -1,4 +1,4 @@
-
+// SKILLS SECTION
 
 const skills = ["HTML", "CSS", "JavaScript", "Git & GitHub"];
 
