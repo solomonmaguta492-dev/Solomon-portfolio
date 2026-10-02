@@ -37,7 +37,7 @@ projects.forEach((project) => {               //loop opens here
   const techBadges = project.tech
     .map((t) => `<span class="tech-badge">${t}</span>`)
     .join("");
-
+// create a new div element for each project card
   const card = document.createElement("div"); //card is inside the loop
   card.classList.add("project-card");
 
